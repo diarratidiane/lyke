@@ -1,0 +1,43 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Espace Agent - Baraka</title><meta name="description" content="Bienvenue sur votre Espace Agent. Depuis cet espace sécurisé, effectuez l’ensemble de vos démarches relatives à votre(vos) contrat(s) client."><meta name="viewport" content="width=device-width"><meta name="format-detection" content="telephone=no"><link rel="stylesheet" href="styles/vendor-69da1a2fff.css"><link rel="stylesheet" href="styles/app-fbd34d43c8.css"><script src="script.js"></script><script>
+    (
+      function(w,d,s,l,i){
+        w[l]=w[l]||[];
+        w[l].push({
+          'gtm.start': new Date().getTime(),event:'gtm.js'
+        });
+        var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+        j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      }
+    )
+    (window,document,'script','dataLayer','GTM-KV2MWT7');
+  </script></head><body id="selcare-ng-app" ng-app="april-selfcare" ng-strict-di="" ng-class="theme"><!--[if lt IE 10]>
+ <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+ <![endif]--><div id="page-wrapper-loading" ng-hide="loaded" class="animate-hide"><img src="assets/img/sc-preloader.gif" alt=""></div><div id="page-wrapper" ng-class="loaded ? 'loaded': ''"><div id="page"><loi-cookie></loi-cookie><sc-header></sc-header><div id="content"><div class="l-constrained"><div class="l-whole" ng-if="pageTitle"><h1 class="t-title" ng-bind="pageTitle | translate"></h1></div><div id="breadcrumb" role="navigation"><ul><li class="breadcrumb_item" ng-repeat="breadcrumbElement in breadcrumb"><a ng-if="breadcrumbElement.link" href="{{ breadcrumbElement.link }}" class="breadcrumb_link">{{ breadcrumbElement.title }}</a> <span ng-if="!breadcrumbElement.link" ng-bind="breadcrumbElement.title"></span></li></ul></div><div ng-if="!maintenance" style="clear:both"><selfcare></selfcare></div><sc-maintenance ng-if="maintenance"></sc-maintenance></div></div></div><hr class="separator"></div><sc-footer ng-show="loaded"></sc-footer><script src="scripts/vendor-bb2fc27552.js"></script><script src="scripts/app-bccd2117c8.js"></script><script ng-if="GA">
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, "script", "//www.google-analytics.com/analytics.js", "ga");
+  </script><script type="text/javascript" src="cordova.js"></script><script type="text/javascript" src="../bower_components/crypto-js/crypto-js.js"></script><script type="text/javascript" src="../bower_components\kjur-jsrsasign\jsrsasign-all-min.js"></script><script>
+    window.addEventListener('load', function () {
+      $(document).on('click', 'a[target="_system"],a[target="_blank"]', function (e) {
+        if(cordova) {
+          e.preventDefault();
+          var url = this.href;
+          cordova.InAppBrowser.open(url,"_system");
+        }
+      });
+      //}
+    }, false);
+    
+    // window.addEventListener('load', ()=>{
+    //   var brand = document.querySelector("#barndId").innerHTML;
+    //   document.getElementById("metaDescription").setAttribute("content", brand);
+    // });
+  </script></body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KV2MWT7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript></html>
